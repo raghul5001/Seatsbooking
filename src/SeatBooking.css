@@ -1,0 +1,115 @@
+.seat-booking-container {
+    display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh; 
+  }
+  
+  .movie-selection {
+    margin-right: 20px;
+  }
+  
+  .movie-selection h1 {
+    display: inline;
+    color: purple;
+    font-size: 15px;
+    padding-right: 25px;
+  }
+  
+  .legend {
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    width: 100%;
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .legend-item {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .legend-item .color {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .legend-item span {
+    vertical-align: top;
+  }
+  
+  .available {
+    background-color: white;
+  }
+  
+  .occupied {
+    background-color: black;
+  }
+  
+  input[type="checkbox"]:checked {
+    background-color: green;
+  }
+  
+  input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    background-color: white; 
+  }
+  .row {
+    display: flex;
+    margin-bottom: 5px;
+  }
+  
+  .checkbox-label {
+    margin-right: 5px;
+  }
+  
+  .seat-container {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 265px;
+    margin-left: 35px;
+  }
+  .color-green{
+    background-color: green;
+    width: 16px;
+    height: 17px;
+    display: inline-block;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+}
+.color-white{
+    background-color: white;
+    width: 16px;
+    height: 17px;
+    display: inline-block;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+}
+
+.color-black{
+    background-color: black !important;
+    width: 16px;
+    height: 17px;
+    display: inline-block;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+}
+.book-button{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.summary{
+    margin-left: 10px;
+}
